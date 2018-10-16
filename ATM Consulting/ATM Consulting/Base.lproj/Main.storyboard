@@ -198,7 +198,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vFU-ob-R4F">
-                                <rect key="frame" x="68" y="210" width="239" height="250"/>
+                                <rect key="frame" x="68" y="281.5" width="239" height="250"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ab4-dF-4Oh">
                                         <rect key="frame" x="0.0" y="0.0" width="239" height="121"/>
@@ -274,7 +274,6 @@
                                             <constraint firstItem="7x7-Bc-a1e" firstAttribute="trailing" secondItem="1V7-gr-HLk" secondAttribute="trailingMargin" id="RAV-L3-zyd"/>
                                             <constraint firstAttribute="trailing" secondItem="7x7-Bc-a1e" secondAttribute="trailing" id="VTG-bd-nLv"/>
                                             <constraint firstItem="7x7-Bc-a1e" firstAttribute="top" secondItem="kOY-I4-o7S" secondAttribute="top" id="abI-PO-9hP"/>
-                                            <constraint firstItem="7x7-Bc-a1e" firstAttribute="centerY" secondItem="kOY-I4-o7S" secondAttribute="centerY" id="amz-aC-ieS"/>
                                             <constraint firstAttribute="bottom" secondItem="7x7-Bc-a1e" secondAttribute="bottom" id="bNV-tK-YKe"/>
                                             <constraint firstAttribute="bottom" secondItem="7x7-Bc-a1e" secondAttribute="bottom" id="bjM-cz-dQf"/>
                                             <constraint firstItem="7x7-Bc-a1e" firstAttribute="leading" secondItem="1V7-gr-HLk" secondAttribute="leading" constant="123" id="ePK-Di-eaD"/>
@@ -291,18 +290,17 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WOc-s3-AGp">
-                                <rect key="frame" x="40" y="89" width="295" height="96"/>
+                                <rect key="frame" x="40" y="160.5" width="295" height="96"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vFU-ob-R4F" firstAttribute="top" secondItem="WOc-s3-AGp" secondAttribute="bottom" constant="25" id="2dR-8l-n7w"/>
-                            <constraint firstItem="vFU-ob-R4F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="GFH-AX-b6c"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vFU-ob-R4F" secondAttribute="trailing" constant="68" id="JTA-R4-vmq"/>
+                            <constraint firstItem="WOc-s3-AGp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-125" id="9cm-Kc-CcW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WOc-s3-AGp" secondAttribute="trailing" constant="40" id="blJ-7J-y84"/>
                             <constraint firstItem="WOc-s3-AGp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="bt6-Gl-fYD"/>
-                            <constraint firstItem="WOc-s3-AGp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="c3q-Jo-zpk"/>
                             <constraint firstItem="vFU-ob-R4F" firstAttribute="top" secondItem="WOc-s3-AGp" secondAttribute="bottom" constant="25" id="k3p-Da-JYS"/>
+                            <constraint firstItem="vFU-ob-R4F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wmo-Bf-Ak2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
